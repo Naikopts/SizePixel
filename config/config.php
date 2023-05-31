@@ -8,7 +8,7 @@
          */
     try 
     {
-        $bdd = new PDO('mysql:host=109.122.198.76;dbname=site;charset=utf8', 'user', 'admin');
+        $bdd = new PDO('mysql:host=;dbname=site;charset=utf8', '', '');
 
     }
     catch(PDOException $e)
